@@ -5,7 +5,7 @@ metadata:
   labels:
     app: edge-service
 spec:
-  replics: 1
+  replicas: 1
   selector:
     matchLabels:
       app: edge-service
